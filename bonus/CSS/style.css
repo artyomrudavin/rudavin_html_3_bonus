@@ -1,0 +1,158 @@
+body {
+	width: 100%;
+	background: url("../img/background.jpg") 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wrapper {
+	width: 960px;
+	height: 883px;
+	margin: 0 auto;
+}
+
+/*HEADER*/
+
+.logo {
+	position: relative;
+}
+
+.text_logo {
+	display: block;
+	position: absolute;
+	left: 71px;
+	top: 132px;
+}
+
+.palm_logo {
+	display: block;
+	position: absolute;
+	left: 212px;
+	top: 57px;
+}
+
+.slogan {
+	display: inline-block;
+	position: absolute;
+	left: 146px;
+	top: 175px;
+	-moz-transform: matrix( 0.85,0,0,0.85,0,0);
+	-webkit-transform: matrix( 0.85,0,0,0.85,0,0);
+	-ms-transform: matrix( 0.85,0,0,0.85,0,0);
+	line-height: 1.2;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 12px;
+	font-family: "Tahoma";
+	color: #E6E6E6;
+}
+
+.contacts {
+	position: relative;
+}
+
+li {
+	line-height: 1.2;
+	text-align: left;
+	-moz-transform: matrix( 0.85,0,0,0.85,0,0);
+	-webkit-transform: matrix( 0.85,0,0,0.85,0,0);
+	-ms-transform: matrix( 0.85,0,0,0.85,0,0);
+	line-height: 1.2;
+	font-size: 12px;
+	font-family: "Tahoma";
+	color: #E6E6E6;
+}
+
+.call {
+	position: absolute;
+	left: 755px;
+	top: 150px;
+}
+
+.phone {
+	position: absolute;
+	left: 755px;
+	top: 166px;
+}
+
+.mail {
+	position: absolute;
+	left: 755px;
+	top: 177px;
+}
+
+/*MAIN*/
+
+main {
+	width: 820px;
+	height: 640px;
+	margin: 0 auto;
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+
+.photo_border {
+	margin-top: 5px;
+	margin-bottom: 50px;
+	box-sizing: border-box;
+	width: 264px;
+	height: 182px;
+	border: 3px solid #E1E1E1;
+	border-radius: 5px;
+	padding: 2px;
+	box-shadow: 0px 0px 5px 1px;
+}
+
+.photo_border img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+main p {
+	margin-top: 5px;
+	line-height: 1.2;
+	text-align: center;
+	-moz-transform: matrix( 0.85,0,0,0.85,0,0);
+	-webkit-transform: matrix( 0.85,0,0,0.85,0,0);
+	-ms-transform: matrix( 0.85,0,0,0.85,0,0);
+	font-size: 18px;
+	line-height: 1.2;
+	font-size: 12px;
+	font-family: "Tahoma";
+	color: #E6E6E6;
+}
+
+.india_place,
+.bhutan_place {
+	float: left;
+	margin-right: 15px;
+}
+
+.nepal_place,
+.sri_lanka_place {
+	float: left;
+}
+.tibet_place,
+.maldives_place {
+	float: right;
+}
+
+/*FOOTER*/
+
+footer {
+	width: 820px;
+	margin: 0 auto;
+}
+
+footer p {
+	margin-top: 185px;
+	line-height: 1.2;
+	text-align: center;
+	-moz-transform: matrix( 0.85,0,0,0.85,0,0);
+	-webkit-transform: matrix( 0.85,0,0,0.85,0,0);
+	-ms-transform: matrix( 0.85,0,0,0.85,0,0);
+	line-height: 1.2;
+	font-size: 12px;
+	font-family: "Tahoma";
+	color: #E6E6E6;
+}
